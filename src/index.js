@@ -1,6 +1,6 @@
 module.exports = function reverse (n) {
-    let f = n.split('');
-      f.reverse();
-  return f.join('');
+    return Number.parseFloat(String(n).split("").reverse().join(""));
 }
- 
+
+
+
